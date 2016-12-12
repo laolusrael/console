@@ -1,0 +1,10 @@
+{
+	"autoload":{
+		"psr-0": {
+			"JenkinsJobs\\" : "src/"
+	 	}
+	},
+	"require": {
+		"chbiel/jenkins-php-api": "^0.1.12"
+	}
+}

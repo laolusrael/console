@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "241ad67f15f05bb3929166ce142eabbf",
+    "content-hash": "1912cbbc90a1410336df8285c34c4361",
+    "packages": [
+        {
+            "name": "chbiel/jenkins-php-api",
+            "version": "0.1.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chbiel/jenkins-php-api.git",
+                "reference": "310f2056fadda4f3a25187ffbf834ffe65e19aab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chbiel/jenkins-php-api/zipball/310f2056fadda4f3a25187ffbf834ffe65e19aab",
+                "reference": "310f2056fadda4f3a25187ffbf834ffe65e19aab",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JenkinsApi": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Biel",
+                    "email": "christopher.biel89@gmail.com"
+                }
+            ],
+            "description": "Library to control Jenkins via PHP through JSON api",
+            "homepage": "https://github.com/chbiel/jenkins-php-api",
+            "time": "2016-03-18 07:32:48"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
